@@ -46,6 +46,7 @@ endfunction(add_stream_test)
 
 # TODO(wanatpj): fix tests
 # Stream generators
+add_stream_test(FileTest)
 add_stream_test(EmptyTest)
 add_stream_test(SingletonTest)
 add_stream_test(RepeatTest)
@@ -68,7 +69,6 @@ add_stream_test(AdjacentDifferenceTest)
 add_stream_test(PartialSumTest)
 add_stream_test(ConcatTest)
 add_stream_test(GroupTest)
-add_stream_test(OverlapTest)
 add_stream_test(ZipTest)
 add_stream_test(SetOperationsTest)
 add_stream_test(StatefulTest)
